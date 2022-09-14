@@ -1,4 +1,6 @@
 import random
+import pyperclip
+import bext
 
 NUM_DIGITS = 3
 MAX_GUESSES = 10
@@ -84,5 +86,5 @@ def getClues(guess, secretNum):
         return ' '.join(clues)
 
 # If the program is run (instead of imported), run the game:
-if __name__ == '_main_':
-    main()
+#if __name__ == '_main_':
+main()
